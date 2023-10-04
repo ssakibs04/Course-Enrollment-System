@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Header start*/
+
+.custom_row {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #ffffff;  
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: rgb(4, 106, 45);
+    font-weight: 700;
+}
+
+.nav_item {
+    background-color: #5023d6;
+    padding: 1em 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_item a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav_item a:hover{
+  color: #2a2a2a;
+}
+.nav_item ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav_item .admin_username{
+  display: flex;
+}
+.nav_item .admin_username i{
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.nav_item .admin_username p{
+  margin-right: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+ /*Header ends*/
+
+ /*Main starts*/
+main{
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: 20% auto 20%;
+  height: 100vh; 
+}
+main .left_sec{
+  background-color: #2280ac;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .left_sec ul{
+  margin-top: 1rem;  
+}
+main .left_sec li{
+  list-style: none;
+  line-height: 2.5rem;
+  transition: all .5s;
+}
+main .left_sec li:hover{
+  background-color: #ffffff;
+}
+main .left_sec li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  letter-spacing: 2px; 
+  margin-left: 2rem;   
+  transition: all 0.5s;
+}
+main .left_sec li a:hover{
+  color: #111111;
+  font-weight: 500;
+}
+main .right_sec{
+  background-color: #f1fcfc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .right_sec div{
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 2rem;
+  
+}
+main .right_sec div:first-child{
+  background-image: linear-gradient(to right, rgba(138, 233, 50, 0.782),rgb(14, 212, 80));
+  text-align: center;
+  padding-top: 10px;
+}
+main .right_sec div:nth-child(2){
+ background-image: linear-gradient(to right, rgba(255, 0, 0, 0.782), rgb(230, 83, 83));
+ text-align: center;
+ padding-top: 10px;
+}
+main .right_sec div:last-child{
+  background-image: linear-gradient(to right, rgba(242, 251, 68, 0.812), rgb(220, 223, 12));
+  text-align: center;
+  padding-top: 10px;
+}
+main .middle_sec #myDIV{
+  display: none;
+}
+main .middle_sec #myDIV p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+main .middle_sec form{
+  border: 1px solid #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+main .middle_sec form label{
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+}
+main .middle_sec form input{
+  width: 100%;
+  height: 35px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+main .middle_sec form .submit{
+  width: 30%;
+  margin: auto;
+  margin-top: 2rem;
+  
+}
+main .middle_sec form .submit input{
+  background-color: #2280ac;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+main .middle_sec form .submit input:hover{
+  background-color: #4097bf;
+}
+ /*Main end*/
+
+
+/*Footer start*/
+.footer_content {
+    background-color: rgb(249, 252, 255);
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+/*Footer end*/
